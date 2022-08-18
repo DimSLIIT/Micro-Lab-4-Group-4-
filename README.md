@@ -145,8 +145,6 @@ Next we have selected as components Capacitors (22pF),PIC16F877A microcontroller
 <br> </br>
 <p> Finally, we went through the hardware implementation by replacing switches with IR obstacle sensors and motors with 3V DC motors </p> 
 
-<br> </br>
-
 ## Results
 <br> </br>
 <img src = "https://user-images.githubusercontent.com/111265007/185435414-acd5bb50-7388-469a-a6ba-bcea3d1efe2a.jpg" width = "800" height = "400"/>
