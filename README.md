@@ -40,7 +40,7 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 </ul>
 
 ## Methodology
-<b> Designing the Code </b> <br> </br>
+<b> ###Designing the Code </b> <br> </br>
 // PIC16LF877A Configuration Bit Settings <br> </br>
 // 'C' source line config statements <br> </br>
 // CONFIG <br> </br>
@@ -60,9 +60,9 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 
 <p> Initially, the oscillator selection bits were configured to high-speed oscillator (HS). All the other configurations bits were set to OFF setting and thus the configuration bits were generated for the code. </p>
 
-<b> Main function <b> <br> </br>
-  void main(void){ //main method <br> </br>
+<b> ####Main function <b> <br> </br>
     
+    void main(void){ //main method
     GIE = 1;    //Global Enable Interrupt Bit in INTCON register 
     INTE = 1;   //External Interrupt Enable Bit in INTCON register
     INTF = 0;   //Interrupt Enable Flag Bit in INTCON register
