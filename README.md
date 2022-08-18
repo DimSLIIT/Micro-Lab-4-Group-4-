@@ -34,7 +34,7 @@ Water level controlling system of a water tank
 </p>
 
 ## Methodology
-<b> Designing the Code </b>
+<b> Designing the Code </b> <br> </br>
 // PIC16LF877A Configuration Bit Settings <br> </br>
 
 // 'C' source line config statements
