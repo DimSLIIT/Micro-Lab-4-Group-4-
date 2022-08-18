@@ -22,8 +22,7 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 ## Objectives
 •	To develop a small water level controlling system of a water tank using the knowledge of interrupts.
 
-<br> </br>
-## Objectives
+## Apparatus
 <ul>
 <li> PCB design
 <li> PIC16F877A microcontroller	
