@@ -63,6 +63,7 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 
 <p> Initially, the oscillator selection bits were configured to high-speed oscillator (HS). All the other configurations bits were set to OFF setting and thus the configuration bits were generated for the code. </p>
 
+<br> </br>
 <b> Main function <b> <br> </br>
     
     void main(void){ //main method
