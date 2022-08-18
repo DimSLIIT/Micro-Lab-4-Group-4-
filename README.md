@@ -72,7 +72,7 @@ A sensor is a device that produces an output signal for the purpose of sensing a
     TRISB1 = 1; //Configuring RB1 pin as an input for Sensor 02
     TRISB0 = 1; //Configuring RB0 pin as an input for Sensor 03 (Interrupt pin)
     
-<img src="https://user-images.githubusercontent.com/111265007/185430125-0e73a177-ee9e-4a20-b6a1-a57473c36729.png" width = "800" height = "500"/>
+<img src="https://user-images.githubusercontent.com/111265007/185430125-0e73a177-ee9e-4a20-b6a1-a57473c36729.png" width = "800" height = "550"/>
 <p> 
 <p align="justify"> 
 The PIC16F87X family has up to 14 sources of interrupt. The interrupt control register (INTCON) records individual interrupt requests in flag bits. It also has  individual and global interrupt enable bits. A global interrupt enable bit, GIE (INTCON) enables (if set) all unmasked interrupts or disables (if cleared) all interrupts. When bit GIE is enabled, and an interrupt’s flag bit and mask bit are set, the interrupt will vector immediately. Individual interrupts can be disabled through their corresponding enable bits in various registers. Individual interrupt bits are set, regardless of the status of the GIE bit. The GIE bit is cleared on RESET. <br> </br> 
@@ -99,7 +99,7 @@ Also, 3 pins (pin 0 (Interrupt pin), pin 1, pin 2) from the PORTB were configure
     }
     return;
     }
-<img src = "https://user-images.githubusercontent.com/111265007/185431051-1c3055e5-b1cd-48f8-9ed0-9b73dc3cdff9.png" width = "800" height = "250"/>
+<img src = "https://user-images.githubusercontent.com/111265007/185431051-1c3055e5-b1cd-48f8-9ed0-9b73dc3cdff9.png" width = "800" height = "200"/>
 <p>
 <p align="justify">
 Three cases were examined. First the 3 sensors were checked for the 1st condition where the Sensor 1 is ON while the other two sensors are OFF. This means when the RB2 pin (Sensor 1) gives a logic high input, the RC0 pin (Motor 1) should give a logic high as well. By this the Motor 1 was set to ON state while the Motor 2 is off. 
