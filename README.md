@@ -147,6 +147,10 @@ Next we have selected as components Capacitors (22pF),PIC16F877A microcontroller
 
 <img src = "https://user-images.githubusercontent.com/111265007/185436880-b32bd1d0-6b8b-4e85-950d-538ffbaf291f.jpg" width = "500" height = "500"/>
 
+<br> </br>
+
+<p> </p> 
+##Conclusion
 
 
 
