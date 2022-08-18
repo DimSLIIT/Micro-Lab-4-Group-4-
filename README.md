@@ -75,14 +75,15 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 <img src="https://user-images.githubusercontent.com/111265007/185430125-0e73a177-ee9e-4a20-b6a1-a57473c36729.png" width = "800" height = "550"/>
 <p> 
 <p align="justify"> 
-The PIC16F87X family has up to 14 sources of interrupt. The interrupt control register (INTCON) records individual interrupt requests in flag bits. It also has  individual and global interrupt enable bits. A global interrupt enable bit, GIE (INTCON) enables (if set) all unmasked interrupts or disables (if cleared) all interrupts. When bit GIE is enabled, and an interrupt’s flag bit and mask bit are set, the interrupt will vector immediately. Individual interrupts can be disabled through their corresponding enable bits in various registers. Individual interrupt bits are set, regardless of the status of the GIE bit. The GIE bit is cleared on RESET. <br> </br> 
+The PIC16F87X family has up to 14 sources of interrupt. The interrupt control register (INTCON) records individual interrupt requests in flag bits. It also has  individual and global interrupt enable bits. A global interrupt enable bit, GIE (INTCON) enables (if set) all unmasked interrupts or disables (if cleared) all interrupts. When bit GIE is enabled, and an interrupt’s flag bit and mask bit are set, the interrupt will vector immediately. Individual interrupts can be disabled through their corresponding enable bits in various registers. Individual interrupt bits are set, regardless of the status of the GIE bit. The GIE bit is cleared on RESET. 
 <p align="justify">
 External interrupt on the RB0/INT pin is edge triggered, either rising, if bit INTEDG in OPTION_REG is set, or falling, if the INTEDG bit is clear. When a valid edge appears on the RB0/INT pin, flag bit INTF (INTCON) is set. This interrupt can be disabled by clearing enable bit INTE (INTCON). Flag bit INTF must be cleared in software in the Interrupt Service Routine before re-enabling this interrupt.
 1st pin and 2nd pin or pin 0 and pin 1 of PORTC was configured to be output pins by the function of TRISC register. These pins were used for the 2 DC motors. 
 Also, 3 pins (pin 0 (Interrupt pin), pin 1, pin 2) from the PORTB were configured as input pins using TRISB register. These pins were used for getting the sensor outputs to the microcontroller. </p> 
 
 <b> While loop </b>
- while(1){ 
+ 
+        while(1){ 
         
         if(RB0 == 0 && RB1 == 0 && RB2 == 1){ //Checking sensor 1, 2, 3
             RC0 = 1; //Motor 1 ON
@@ -109,5 +110,25 @@ Another external case was inspected where when all the sensors are at logic low,
 
 
 <b> Interrupt Routine </b>
+
+    void __interrupt() isr(void){
+    
+    //(Sensor 3 at logic high, '1')
+    if(RB1 == 1 && RB2 == 1){   //Checking Sensor 1 and 2 after interrupt 
+        RC0 = 0; //Motor 1 OFF
+        RC1 = 1; //Motor 2 ON
+        __delay_ms(500); //Giving 500 ms delay
+        RC1 = 0; //Motor 2 OFF
+    }
+    INTF = 0; //Interrupt flag bit set as logic low, '0'
+    }
+
+<p> 
+<p align="justify">
+Once the Sensor 3 is triggered, the ISR or the Interrupt Service Routine will override the program and the operation of the circuit will run as instructed. Here in the interrupt routine, an if condition was used to check the sensor logic and when it senses that all the three sensors are at logic high inputs, the Motor 1 was set to OFF immediately where Motor 2 will drive for only 500 ms and stops. This was done using a delay function. </p>
+
+<b> Implementation of the hardware demonstration </b>
+
+
 
 
