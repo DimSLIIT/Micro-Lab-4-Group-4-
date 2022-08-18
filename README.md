@@ -1,10 +1,6 @@
 # Micro-Lab-4-Group-4-
 Water level controlling system of a water tank
 
-<p>
-
-</p>
-
 ## Introduction 
 
 <p>
@@ -36,18 +32,16 @@ Water level controlling system of a water tank
 ## Methodology
 <b> Designing the Code </b> <br> </br>
 // PIC16LF877A Configuration Bit Settings <br> </br>
-
-// 'C' source line config statements
-
-// CONFIG
-#pragma config FOSC = HS        // Oscillator Selection bits (HS oscillator)
-#pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled)
-#pragma config PWRTE = OFF      // Power-up Timer Enable bit (PWRT disabled)
-#pragma config BOREN = OFF      // Brown-out Reset Enable bit (BOR disabled)
-#pragma config LVP = OFF        // In-Circuit Serial Programming Enable bit 
-#pragma config CPD = OFF        // Data EEPROM Memory Code Protection bit 
-#pragma config WRT = OFF        // Flash Program Memory Write Enable bits 
-#pragma config CP = OFF         // Flash Program Memory Code Protection bit 
+// 'C' source line config statements <br> </br>
+// CONFIG <br> </br>
+#pragma config FOSC = HS        // Oscillator Selection bits (HS oscillator) <br> </br>
+#pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled) <br> </br>
+#pragma config PWRTE = OFF      // Power-up Timer Enable bit (PWRT disabled) <br> </br>
+#pragma config BOREN = OFF      // Brown-out Reset Enable bit (BOR disabled) <br> </br>
+#pragma config LVP = OFF        // In-Circuit Serial Programming Enable bit <br> </br>
+#pragma config CPD = OFF        // Data EEPROM Memory Code Protection bit <br> </br>
+#pragma config WRT = OFF        // Flash Program Memory Write Enable bits <br> </br>
+#pragma config CP = OFF         // Flash Program Memory Code Protection bit <br> </br>
 
 // #pragma config statements should precede project file includes.
 // Use project enums instead of #define for ON and OFF.
