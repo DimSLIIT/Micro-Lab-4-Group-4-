@@ -71,5 +71,11 @@ A sensor is a device that produces an output signal for the purpose of sensing a
     TRISB2 = 1; //Configuring RB2 pin as an input for Sensor 01
     TRISB1 = 1; //Configuring RB1 pin as an input for Sensor 02
     TRISB0 = 1; //Configuring RB0 pin as an input for Sensor 03 (Interrupt pin)
+    
+<p> The PIC16F87X family has up to 14 sources of interrupt. The interrupt control register (INTCON) records individual interrupt requests in flag bits. It also has  individual and global interrupt enable bits. A global interrupt enable bit, GIE (INTCON) enables (if set) all unmasked interrupts or disables (if cleared) all interrupts. When bit GIE is enabled, and an interrupt’s flag bit and mask bit are set, the interrupt will vector immediately. Individual interrupts can be disabled through their corresponding enable bits in various registers. Individual interrupt bits are set, regardless of the status of the GIE bit. The GIE bit is cleared on RESET. <br> </br> 
+External interrupt on the RB0/INT pin is edge triggered, either rising, if bit INTEDG in OPTION_REG is set, or falling, if the INTEDG bit is clear. When a valid edge appears on the RB0/INT pin, flag bit INTF (INTCON) is set. This interrupt can be disabled by clearing enable bit INTE (INTCON). Flag bit INTF must be cleared in software in the Interrupt Service Routine before re-enabling this interrupt.
+1st pin and 2nd pin or pin 0 and pin 1 of PORTC was configured to be output pins by the function of TRISC register. These pins were used for the 2 DC motors. 
+Also, 3 pins (pin 0 (Interrupt pin), pin 1, pin 2) from the PORTB were configured as input pins using TRISB register. These pins were used for getting the sensor outputs to the microcontroller. </p> 
 
+<b> While loop </b>
 
