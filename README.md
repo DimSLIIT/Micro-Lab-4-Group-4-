@@ -136,6 +136,11 @@ First of all the connections of the circuit was made by referring the PIC16F877A
 Next we have selected as components Capacitors (22pF),PIC16F877A microcontroller, Crystal oscillator (20MHz), switches, motors and Resistors (330Ω, 10kΩ) to implement the software demonstration using proteus software. </p>
     
 <img src = "https://user-images.githubusercontent.com/111265007/185434766-4b79a7be-7cd4-4e56-a921-9cb6fdb90df3.png" width = "900" height = "700"/>
+   
+<p> Finally, we went through the hardware implementation by replacing switches with IR obstacle sensors and motors with 3V DC motors </p> 
+
+<img src = "
+
 
 
 
