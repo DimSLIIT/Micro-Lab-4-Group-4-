@@ -9,9 +9,7 @@ The PIC microcontroller PIC16f877A is one of the most renowned microcontrollers 
 
 <b> Pickit Programmer Debugger </b> <br> </br>
 <p align="justify">
-The PICkit 3 programmer/debugger is a simple, low-cost in-circuit debugger that is controlled by a PC running MPLAB IDE software on a Windows platform. The PICkit 3 debugger is an integral part of the development engineer’s toolsuite. The application usage can vary from software development to hardware integration.
-<p align="justify">
-The PICkit 3 debugger is a debugger system used for hardware and software development of Microchip PIC microcontrollers and PIC Digital Signal Controllers that are based on In-Circuit Serial Programming and Enhanced In-Circuit Serial Programming 2-wire serial interfaces. In addition to debugger functions, the PICkit 3 debugger system also may be used as a development programmer.
+The PICkit 3 programmer/debugger is a simple, low-cost in-circuit debugger that is controlled by a PC running MPLAB IDE software on a Windows platform. The PICkit 3 debugger is an integral part of the development engineer’s toolsuite. The application usage can vary from software development to hardware integration. The PICkit 3 debugger is a debugger system used for hardware and software development of Microchip PIC microcontrollers and PIC Digital Signal Controllers that are based on In-Circuit Serial Programming and Enhanced In-Circuit Serial Programming 2-wire serial interfaces. In addition to debugger functions, the PICkit 3 debugger system also may be used as a development programmer.
 
 <b> Sensor </b> <br> </br>
 <p align="justify">
@@ -54,6 +52,12 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 
 // #pragma config statements should precede project file includes. <br> </br>
 // Use project enums instead of #define for ON and OFF. <br> </br>
+#include <xc.h> //Header file for PIC device <br> </br>
+#define _XTAL_FREQ 20000000  //Oscillator frequency of 20MHz <br> </br>
 
 <p> Initially, the oscillator selection bits were configured to high-speed oscillator (HS). All the other configurations bits were set to OFF setting and thus the configuration bits were generated for the code. </p>
+
+<b> Main function <b> <br> </br>
+  
+
 
