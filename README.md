@@ -3,18 +3,18 @@ Water level controlling system of a water tank
 
 ## Introduction 
 <b> Pic Microcontroller </b> <br> </br>
-align="justify"
+<p align="justify">
 The PIC microcontroller is controlled by software and programmed in such a way that it performs different tasks and controls a generation line. PIC microcontrollers are used in different new applications such as smartphones, audio accessories, and advanced medical devices.
 The PIC microcontroller PIC16f877A is one of the most renowned microcontrollers in the industry. The PIC16F877A microcontroller is very convenient to use, the coding or programming of this controller is also easier. One of the main advantages is that it can be write-erase as many times as possible because it uses FLASH memory technology. It has a total number of 40 pins and there are 33 pins for input and output. PIC16f877A finds its applications in a huge number of devices. It is used in remote sensors, security and safety devices, home automation and many industrial instruments. The cost of this controller is low and its handling is also easy. It is flexible and can be used in areas where microcontrollers have never been used before as in microprocessor applications and timer functions etc.
 
 <b> Pickit Programmer Debugger </b> <br> </br>
-align="justify"
+<p align="justify">
 The PICkit 3 programmer/debugger is a simple, low-cost in-circuit debugger that is controlled by a PC running MPLAB IDE software on a Windows platform. The PICkit 3 debugger is an integral part of the development engineer’s toolsuite. The application usage can vary from software development to hardware integration.
-align="justify"
+<p align="justify">
 The PICkit 3 debugger is a debugger system used for hardware and software development of Microchip PIC microcontrollers and PIC Digital Signal Controllers that are based on In-Circuit Serial Programming and Enhanced In-Circuit Serial Programming 2-wire serial interfaces. In addition to debugger functions, the PICkit 3 debugger system also may be used as a development programmer.
 
 <b> Sensor </b> <br> </br>
-align="justify"
+<p align="justify">
 A sensor is a device that produces an output signal for the purpose of sensing a physical phenomenon. There are so many types of sensors which used in the industry. IR sensors, motion detect sensors, pressure sensors, temperature sensors are some of them. The basic concept of an Infrared Sensor which is used as Obstacle detector is to transmit an infrared signal, this infrared signal bounces from the surface of an object and the signal is received at the infrared receiver.
 
 
