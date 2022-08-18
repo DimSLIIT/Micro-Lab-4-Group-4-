@@ -150,10 +150,20 @@ Next we have selected as components Capacitors (22pF),PIC16F877A microcontroller
 <br> </br>
 
 <p> </p> 
-##Conclusion
+## Conclusion
+<p>
+<p align="justify">
+In conclusion this is the fourth time of doing a laboratory session in Microcomputers module. Throughout this laboratory experiment we have developed a small water level controlling system of a water tank using the knowledge of interrupts and other programming techniques of PIC16f877a from all the labs we did throughout the course. We have met some difficulties when choosing sensors and clarified those from  google and related books. This laboratory gave us an insight into the sensor knowledge as well as motor knowledge. Finally, I would like to say, we have learned how to co-exist with PCB technology from PCB manufacture to soldering. </p>
 
+## References
+<p> 
+[1]M. Lab, "PIC16F877A Microcontroller Introduction and Features", Microcontrollers Lab, 2022. [Online]. Available: https://microcontrollerslab.com/pic16f877a-introduction-features/. [Accessed: 18- Aug- 2022]. <br> </br> 
 
+[2]"Dynamic Dev Tool Page | Microchip Technology", Microchip.com, 2022. [Online]. Available: https://www.microchip.com/en-us/development-tool/PG164130. [Accessed: 18- Aug- 2022]. <br> </br> 
 
+[3]2022. [Online]. Available: https://www.electronicshub.org/ir-sensor/. [Accessed: 18- Aug- 2022]. <br> </br> 
+
+[4]2022. [Online]. Available: https://www.electronicshub.org/different-types-sensors/. [Accessed: 18- Aug- 2022]. <br> </br> 
 
 
 
