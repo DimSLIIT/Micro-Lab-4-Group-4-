@@ -135,7 +135,7 @@ Once the Sensor 3 is triggered, the ISR or the Interrupt Service Routine will ov
 First of all the connections of the circuit was made by referring the PIC16F877A  datasheet and the lab sheet.
 Next we have selected as components Capacitors (22pF),PIC16F877A microcontroller, Crystal oscillator (20MHz), switches, motors and Resistors (330Ω, 10kΩ) to implement the software demonstration using proteus software. </p>
     
-<img src = "https://user-images.githubusercontent.com/111265007/185434766-4b79a7be-7cd4-4e56-a921-9cb6fdb90df3.png" width = "500" height = "500"/>
+<img src = "https://user-images.githubusercontent.com/111265007/185434766-4b79a7be-7cd4-4e56-a921-9cb6fdb90df3.png" width = "600" height = "400"/>
    
 <p> Finally, we went through the hardware implementation by replacing switches with IR obstacle sensors and motors with 3V DC motors </p> 
 
