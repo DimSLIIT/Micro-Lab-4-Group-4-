@@ -40,7 +40,7 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 </ul>
 
 ## Methodology
-<b> ###Designing the Code </b> <br> </br>
+<b> Designing the Code </b> <br> </br>
 // PIC16LF877A Configuration Bit Settings <br> </br>
 // 'C' source line config statements <br> </br>
 // CONFIG <br> </br>
@@ -60,7 +60,7 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 
 <p> Initially, the oscillator selection bits were configured to high-speed oscillator (HS). All the other configurations bits were set to OFF setting and thus the configuration bits were generated for the code. </p>
 
-<b> ####Main function <b> <br> </br>
+<b> Main function <b> <br> </br>
     
     void main(void){ //main method
     GIE = 1;    //Global Enable Interrupt Bit in INTCON register 
@@ -131,6 +131,12 @@ Another external case was inspected where when all the sensors are at logic low,
 Once the Sensor 3 is triggered, the ISR or the Interrupt Service Routine will override the program and the operation of the circuit will run as instructed. Here in the interrupt routine, an if condition was used to check the sensor logic and when it senses that all the three sensors are at logic high inputs, the Motor 1 was set to OFF immediately where Motor 2 will drive for only 500 ms and stops. This was done using a delay function. </p>
 
 <b> Implementation of the hardware demonstration </b>
+<p>
+First of all the connections of the circuit was made by referring the PIC16F877A  datasheet and the lab sheet.
+Next we have selected as components Capacitors (22pF),PIC16F877A microcontroller, Crystal oscillator (20MHz), switches, motors and Resistors (330Ω, 10kΩ) to implement the software demonstration using proteus software. </p>
+    
+<img src = 
+
 
 
 
