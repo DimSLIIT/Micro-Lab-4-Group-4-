@@ -42,7 +42,6 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 
 ## Methodology
 ### Designing the Code 
-<br> </br>
 // PIC16LF877A Configuration Bit Settings <br> </br>
 // 'C' source line config statements <br> </br>
 // CONFIG <br> </br>
