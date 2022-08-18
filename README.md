@@ -135,6 +135,8 @@ Another external case was inspected where when all the sensors are at logic low,
 <p align="justify">
 Once the Sensor 3 is triggered, the ISR or the Interrupt Service Routine will override the program and the operation of the circuit will run as instructed. Here in the interrupt routine, an if condition was used to check the sensor logic and when it senses that all the three sensors are at logic high inputs, the Motor 1 was set to OFF immediately where Motor 2 will drive for only 500 ms and stops. This was done using a delay function. </p>
 
+<br> </br>
+
 <b> Implementation of the hardware demonstration </b>
 <p>
 First of all the connections of the circuit was made by referring the PIC16F877A  datasheet and the lab sheet.
@@ -142,7 +144,6 @@ Next we have selected as components Capacitors (22pF),PIC16F877A microcontroller
     
 <img src = "https://user-images.githubusercontent.com/111265007/185434766-4b79a7be-7cd4-4e56-a921-9cb6fdb90df3.png" width = "600" height = "400"/>
 
-<br> </br>
 <p> Finally, we went through the hardware implementation by replacing switches with IR obstacle sensors and motors with 3V DC motors </p> 
 
 ## Results
