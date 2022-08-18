@@ -35,4 +35,20 @@ Water level controlling system of a water tank
 
 ## Methodology
 <b> Designing the Code </b>
+// PIC16LF877A Configuration Bit Settings
+
+// 'C' source line config statements
+
+// CONFIG
+#pragma config FOSC = HS        // Oscillator Selection bits (HS oscillator)
+#pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled)
+#pragma config PWRTE = OFF      // Power-up Timer Enable bit (PWRT disabled)
+#pragma config BOREN = OFF      // Brown-out Reset Enable bit (BOR disabled)
+#pragma config LVP = OFF        // In-Circuit Serial Programming Enable bit 
+#pragma config CPD = OFF        // Data EEPROM Memory Code Protection bit 
+#pragma config WRT = OFF        // Flash Program Memory Write Enable bits 
+#pragma config CP = OFF         // Flash Program Memory Code Protection bit 
+
+// #pragma config statements should precede project file includes.
+// Use project enums instead of #define for ON and OFF.
 
