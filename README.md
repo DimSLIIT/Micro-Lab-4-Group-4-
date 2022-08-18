@@ -40,7 +40,8 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 </ul>
 
 ## Methodology
-<b> Designing the Code </b> <br> </br>
+### Designing the Code 
+<br> </br>
 // PIC16LF877A Configuration Bit Settings <br> </br>
 // 'C' source line config statements <br> </br>
 // CONFIG <br> </br>
@@ -84,8 +85,9 @@ External interrupt on the RB0/INT pin is edge triggered, either rising, if bit I
 1st pin and 2nd pin or pin 0 and pin 1 of PORTC was configured to be output pins by the function of TRISC register. These pins were used for the 2 DC motors. 
 Also, 3 pins (pin 0 (Interrupt pin), pin 1, pin 2) from the PORTB were configured as input pins using TRISB register. These pins were used for getting the sensor outputs to the microcontroller. </p> 
 
+<br> </br>
 <b> While loop </b>
- 
+
         while(1){ 
         
         if(RB0 == 0 && RB1 == 0 && RB2 == 1){ //Checking sensor 1, 2, 3
@@ -111,7 +113,7 @@ Next in case 2, Sensor 1 and 2 were set to give a logic low input to the PIC IC 
 Finally when sensor 3 gives a logic high, the interrupt routine was triggered and hence the Motor 2 was set ON for a small period of time (initiating a delay) where the Motor 1 will cease of its operation. Here the interrupt routine will run and the operation follows the instructions as given in the interrupt routine.
 Another external case was inspected where when all the sensors are at logic low, both the motors were ceased of its operation. </p>
 
-
+<br> </br>
 <b> Interrupt Routine </b>
 
     void __interrupt() isr(void){
@@ -136,9 +138,12 @@ First of all the connections of the circuit was made by referring the PIC16F877A
 Next we have selected as components Capacitors (22pF),PIC16F877A microcontroller, Crystal oscillator (20MHz), switches, motors and Resistors (330Ω, 10kΩ) to implement the software demonstration using proteus software. </p>
     
 <img src = "https://user-images.githubusercontent.com/111265007/185434766-4b79a7be-7cd4-4e56-a921-9cb6fdb90df3.png" width = "600" height = "400"/>
+
 <br> </br>
 <p> Finally, we went through the hardware implementation by replacing switches with IR obstacle sensors and motors with 3V DC motors </p> 
+
 <br> </br>
+
 ## Results
 <br> </br>
 <img src = "https://user-images.githubusercontent.com/111265007/185435414-acd5bb50-7388-469a-a6ba-bcea3d1efe2a.jpg" width = "800" height = "400"/>
