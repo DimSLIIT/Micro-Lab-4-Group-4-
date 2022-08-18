@@ -58,6 +58,18 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 <p> Initially, the oscillator selection bits were configured to high-speed oscillator (HS). All the other configurations bits were set to OFF setting and thus the configuration bits were generated for the code. </p>
 
 <b> Main function <b> <br> </br>
-  
+  void main(void){ //main method <br> </br>
+    
+    GIE = 1;    //Global Enable Interrupt Bit in INTCON register 
+    INTE = 1;   //External Interrupt Enable Bit in INTCON register
+    INTF = 0;   //Interrupt Enable Flag Bit in INTCON register
+    INTEDG = 1; //Interrupt Edge Select Bit in OPTION register
+    
+    TRISC0 = 0; //Configuring RC0 pin as an output for Motor 1
+    TRISC1 = 0; //Configuring RC1 pin as an output for Motor 2
+    
+    TRISB2 = 1; //Configuring RB2 pin as an input for Sensor 01
+    TRISB1 = 1; //Configuring RB1 pin as an input for Sensor 02
+    TRISB0 = 1; //Configuring RB0 pin as an input for Sensor 03 (Interrupt pin)
 
 
