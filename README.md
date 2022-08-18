@@ -103,7 +103,7 @@ Also, 3 pins (pin 0 (Interrupt pin), pin 1, pin 2) from the PORTB were configure
     }
     return;
     }
-<img src = "https://user-images.githubusercontent.com/111265007/185431051-1c3055e5-b1cd-48f8-9ed0-9b73dc3cdff9.png" width = "800" height = "200"/>
+<img src = "https://user-images.githubusercontent.com/111265007/185431051-1c3055e5-b1cd-48f8-9ed0-9b73dc3cdff9.png" width = "900" height = "150"/>
 <p>
 <p align="justify">
 Three cases were examined. First the 3 sensors were checked for the 1st condition where the Sensor 1 is ON while the other two sensors are OFF. This means when the RB2 pin (Sensor 1) gives a logic high input, the RC0 pin (Motor 1) should give a logic high as well. By this the Motor 1 was set to ON state while the Motor 2 is off. 
