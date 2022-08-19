@@ -151,7 +151,7 @@ Next we have selected as components Capacitors (22pF),PIC16F877A microcontroller
 <br> </br>
 
 <b> PCB Layout </b>
-<img src = "https://user-images.githubusercontent.com/111265007/185548374-da801938-c0d5-43b7-b497-0dbd3a6795c9.png" width = "800"height = "500"/>
+<img src = "https://user-images.githubusercontent.com/111265007/185548374-da801938-c0d5-43b7-b497-0dbd3a6795c9.png" width = "800" height = "500"/>
 <br> </br> 
 
 <b> PCB Design </b> 
