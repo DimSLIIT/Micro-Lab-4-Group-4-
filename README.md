@@ -1,4 +1,4 @@
-# Microcomputers Lab4 - Group 4
+# Microcomputers Lab 4 - Group 4
 Water level controlling system of a water tank
 
 ## Introduction 
@@ -21,8 +21,11 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 
 ## Objectives
 •	To develop a small water level controlling system of a water tank using the knowledge of interrupts.
+
 <br> </br>
-< img src = "" width = "500" height = "500"/> 
+<img src = "https://user-images.githubusercontent.com/111265007/185553183-bdde5a5b-95f4-41a4-8281-bf3206dc4d3c.png" width = "500" height = "500"/> 
+<br> </br>
+
 ## Apparatus
 <ul>
 <li> PCB design
