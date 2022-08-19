@@ -41,7 +41,8 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 <p>
     
 </p>
-<img src = "https://user-images.githubusercontent.com/111265007/185549294-05b11df1-a34b-4208-84c9-bd2cbdfced5c.jpg" width = "400" height = "400/>
+<img src = "https://user-images.githubusercontent.com/111265007/185549294-05b11df1-a34b-4208-84c9-bd2cbdfced5c.jpg" width = "400" height = "600"/>
+<img src = "https://user-images.githubusercontent.com/111265007/185550147-8c9eda7a-7366-430b-8b77-61e18f0145b2.jpg" width = "400" height = "400"/>
 
 ## Methodology
 ### Designing the Code 
