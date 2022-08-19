@@ -43,7 +43,7 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 </p>
 <img src = "https://user-images.githubusercontent.com/111265007/185550957-6da23c5a-9f53-410c-844e-53d2da66e1e6.jpg" width = "300" height = "300"/>
 <img src = "https://user-images.githubusercontent.com/111265007/185550970-62a65c30-c991-42a9-a502-3d935c3ab521.jpg" width = "300" height = "300"/>
-<img src = "https://user-images.githubusercontent.com/111265007/185550970-62a65c30-c991-42a9-a502-3d935c3ab521.jpg" width = "300" height = "300"/>
+<img src = "https://user-images.githubusercontent.com/111265007/185551199-74983e08-6bda-4da4-9860-b8a79c2f2910.jpg" width = "500" height = "300"/>
 
 ## Methodology
 ### Designing the Code 
@@ -152,11 +152,11 @@ Next we have selected as components Capacitors (22pF),PIC16F877A microcontroller
 <p> Finally, we went through the hardware implementation by replacing switches with IR obstacle sensors and motors with 3V DC motors </p>
 <br> </br> 
 
-<b> PCB Layout </b>
+### <b> PCB Layout </b>
 <img src = "https://user-images.githubusercontent.com/111265007/185548374-da801938-c0d5-43b7-b497-0dbd3a6795c9.png" width = "500" height = "500"/>
 <br> </br> 
 
-## <b> PCB Design </b> 
+### <b> PCB Design </b> 
 <img src = "https://user-images.githubusercontent.com/111265007/185436880-b32bd1d0-6b8b-4e85-950d-538ffbaf291f.jpg" width = "500" height = "500"/>
 <br> </br>
 
