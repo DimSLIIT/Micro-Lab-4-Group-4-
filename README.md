@@ -45,9 +45,22 @@ A sensor is a device that produces an output signal for the purpose of sensing a
 <p>
     
 </p>
+
+Infra Red motion sensor
+<p> 
+</p>
 <img src = "https://user-images.githubusercontent.com/111265007/185550957-6da23c5a-9f53-410c-844e-53d2da66e1e6.jpg" width = "300" height = "300"/>
+<p> 
+</p>
+2 channel 5V relay
+<p> 
+</p>
 <img src = "https://user-images.githubusercontent.com/111265007/185550970-62a65c30-c991-42a9-a502-3d935c3ab521.jpg" width = "300" height = "300"/>
+<p> 
+</p>
+3V DC motor
 <img src = "https://user-images.githubusercontent.com/111265007/185551199-74983e08-6bda-4da4-9860-b8a79c2f2910.jpg" width = "500" height = "300"/>
+
 
 ## Methodology
 ### Designing the Code 
